@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 
 from langchain_chroma import Chroma
-from langchain.schema import Document
+from langchain_core.documents import Document
 
 from rag.embeddings import get_embeddings
 
